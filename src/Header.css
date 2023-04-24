@@ -1,0 +1,13 @@
+@media screen and (max-width:383px) {
+    .heading-two{
+        font-size: large;
+    }
+    .para-one{
+        font-size: large;
+    }
+}
+@media screen and (max-width:300px) {
+.heading{
+    font-size: xx-large;
+}
+}

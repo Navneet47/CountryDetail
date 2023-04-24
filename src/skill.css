@@ -1,0 +1,102 @@
+.mainDiv{
+  width: 100%;
+  max-width: 100%;
+  display:flex;
+  font-weight: bolder;
+}
+.mainPara{
+  width: 150px;
+  height: fit-content;
+  max-width: 150px;
+  margin: 10px;
+}
+.country{
+  max-height: 100px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: large;
+}
+.numberDiv{
+  display: flex;
+  margin: 10px 0;
+}
+.rightPara{
+  font-size: large;
+  margin-left: 200px;
+}
+.skillDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  overflow: hidden;
+  margin-left: 50px;
+  max-height: 40px;
+  margin-top: 10px;
+}
+  .skill {
+    height: 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-left: 5px;
+    display: none;
+  }
+
+@media screen and (max-width:518px) {
+  .mainDiv{
+     justify-content: flex-start;
+     align-items: flex-start;
+  }
+  .skillDiv{
+    display: none;
+  }
+  .rightPara{
+    font-size: medium;
+  }
+  .country{
+    font-size: medium;
+  }
+}
+@media screen and (max-width:426px) {
+  .rightPara{
+    font-size: small;
+  }
+  .country{
+    font-size: small;
+  }
+}
+@media screen and (max-width:390px) {
+  .rightPara{
+    font-size: xx-small;
+    margin-left: 180px;
+
+  }
+  .country{
+    font-size: xx-small;
+  }
+}
+@media screen and (max-width:340px) {
+  .rightPara{
+    margin-left: 160px;
+
+  }
+}
+@media screen and (max-width:316px) {
+  .rightPara{
+    margin-left: 140px;
+  }
+}
+@media screen and (max-width:290px) {
+  .rightPara{
+    font-size: xx-small;
+    margin-left: 120px;
+
+  }
+}
+@media screen and (max-width:250px) {
+  .rightPara{
+    font-size: xx-small;
+    margin-left: 100px;
+
+  }
+}

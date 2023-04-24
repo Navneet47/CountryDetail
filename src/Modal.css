@@ -1,0 +1,6 @@
+@media screen and (max-width:300px) {
+    .myImg{
+        max-width:150px;
+        /* height: 80px; */
+    }
+}

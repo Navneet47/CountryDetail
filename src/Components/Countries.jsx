@@ -1,4 +1,4 @@
-import "../Countries.css";
+import "../Styles/Countries.css";
 import ViewCountryModal from "./ViewCountryModal";
 function Countries(props){
     const cDetail = props.details;

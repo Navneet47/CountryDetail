@@ -1,4 +1,4 @@
-import '../skill.css'
+import '../Styles/skill.css'
 function CountryDetails(props){
     return <div key={props.id} className="mainDiv">
     <p className="mainPara">

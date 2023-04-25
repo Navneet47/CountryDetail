@@ -1,4 +1,4 @@
-import "../Main.css";
+import "../Styles/Main.css";
 import Button from "./Button";
 import { useState} from "react";
 import Countries from "./Countries";
@@ -122,7 +122,7 @@ function Main(props){
         <Header text={props.class.icon} bClass={props.class.btnClass} hClass={props.class.headerClass} func={props.func} styles={style.isTrue ? {display:''}:{display:'none'}} size={getCountry.length} />
     <div className={props.class.mainClass}>
     <section className={props.class.mainSectionOneClass}>
-        <input name="CountryName" onChange={handleChange} placeholder="Search countries by name, city" type='text' />
+        <input name="CountryName" onChange={handleChange} placeholder="Search country" type='text' />
     </section>
         <section className="section-two">
         <div className="parent-div">

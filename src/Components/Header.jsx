@@ -1,6 +1,6 @@
 import { useFetch } from '../useFetch';
 import Button from './Button';
-import "../Header.css";
+import "../Styles/Header.css";
 function Header(props){
   const [countryLength] = useFetch('https://restcountries.com/v3.1/all');
     return <div className={props.hClass}>

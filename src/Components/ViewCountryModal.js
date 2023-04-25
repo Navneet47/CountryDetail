@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Modal.css";
+import "../Styles/Modal.css";
 
 function ViewCountryModal(props) {
     const { capital, currencies, region, subregion, timezones, maps:{googleMaps},continents, car:{side}, flags: { png }, languages, population, name: { common } } = props.country;

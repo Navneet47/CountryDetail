@@ -6,8 +6,8 @@ function Header(props){
     return <div className={props.hClass}>
     <section className="header-section-one">
         <header>
-        <div className={props.bClass}>
-         <Button  func={props.func} text=<img src="https://img.icons8.com/ios-glyphs/30/000000/moon-symbol.png" alt="darkMode-icon" />/>
+        <div className="container my-3">
+         <Button  func={props.func} text="Dark"/>
         </div>
           <h1 className='heading'>World Countries Data</h1>
           <h2 className='heading-two'>Currently,we have {countryLength.length} countries</h2>
